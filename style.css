@@ -35,3 +35,34 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+
+
+header { 
+grid-area: header ;
+margin: 20px;
+}
+
+nav {
+  grid-area: nav ;
+  margin: 40px;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+article {
+  flex: 0 0 20%;
+  margin: 20px;
+  padding: 8px;
+}
+h1 {
+    color: var(--h1-text);
+    border-radius: 12px;
+    font-size: 2.2rem; 
+    margin: 20px;
+}
