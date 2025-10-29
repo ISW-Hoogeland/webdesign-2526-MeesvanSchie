@@ -62,18 +62,28 @@ article {
   padding: 8px;
 }
 h1 {
-  background: var(--nav-bg);
-    color: var(--nav-text);
-    border-radius: 10px;
+background-color: #C6AC8F;
+    border-radius: 50px;
     padding: 10px 14px;
     margin: 16px 0 24px 0;
     text-align: center;
-   
+    text-decoration: underline;
+      font-family: "Poiret One", sans-serif;
 }
+
 p {
   flex: 0 0 20%;
   margin: 20px;
   padding: 8px;
   border: 5px;
   border-style: solid;
+  font-family: "Poiret One", sans-serif;
 }
+
+h2 {
+  text-align: center;
+ text-decoration: underline;
+   font-family: "Poiret One", sans-serif;
+
+}
+
