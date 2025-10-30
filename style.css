@@ -35,26 +35,40 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+:root{
+ --white-colour: #FFFFFF;
+ 
+}
 
+body {
+display: grid;
+grid-template-areas: 
+"header nav"
+"main main"
+"footer footer"
+;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 120px 1fr 60px; 
+background-color: #003135;
 
-header { 
-grid-area: header ;
-margin: 20px;
+}
 
+header {
+grid-area: header; 
 }
 
 nav {
-  grid-area: nav ;
-  margin: 40px;
+grid-area: nav; 
+color: var(--white-colour)
 }
 
 main {
-  grid-area: main;
+grid-area: main; 
 }
 
 footer {
-  grid-area: footer;
-}
+grid-area: footer;
+ }
 
 article {
   flex: 0 0 20%;
@@ -62,13 +76,12 @@ article {
   padding: 8px;
 }
 h1 {
-background-color: #C6AC8F;
-    border-radius: 50px;
     padding: 10px 14px;
     margin: 16px 0 24px 0;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
       font-family: "Poiret One", sans-serif;
+      color: var(--white-colour)
 }
 
 p {
@@ -78,12 +91,32 @@ p {
   border: 5px;
   border-style: solid;
   font-family: "Poiret One", sans-serif;
+  color: var(--white-colour)
 }
 
 h2 {
   text-align: center;
  text-decoration: underline;
    font-family: "Poiret One", sans-serif;
+   color: var(--white-colour)
 
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+  display: flex;
+  gap: 50px ;
+
+}
+
+
+nav a {
+color: #FFFFFF;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0);
 }
 
