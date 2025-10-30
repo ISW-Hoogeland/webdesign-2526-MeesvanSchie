@@ -45,8 +45,7 @@ display: grid;
 grid-template-areas: 
 "header nav"
 "main main"
-"footer footer"
-;
+"footer footer";
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 120px 1fr 60px; 
 background-color: #003135;
@@ -59,7 +58,8 @@ grid-area: header;
 
 nav {
 grid-area: nav; 
-color: var(--white-colour)
+color: var(--white-colour);
+
 }
 
 main {
@@ -77,11 +77,12 @@ article {
 }
 h1 {
     padding: 10px 14px;
-    margin: 16px 0 24px 0;
+    margin: 14px 0 24px 0;
     text-align: left;
     text-decoration: underline;
       font-family: "Poiret One", sans-serif;
-      color: var(--white-colour)
+      color: var(--white-colour);
+     margin-left: 40px; 
 }
 
 p {
@@ -104,24 +105,32 @@ h2 {
 
 nav ul {
    list-style: none;
-   padding: 0;
+   padding: 30px;
    margin: 0;
   display: flex;
-  gap: 50px ;
+  gap: 75px ;
 
 }
 
 
 nav a {
 color: #FFFFFF;
+font-size: 18px;
 }
 
 nav a:hover {
-  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 #index {
   display: flex;
   justify-content: center; 
   align-items: center;     
+}
+
+img {
+ margin-left: 50px;
 }
