@@ -132,7 +132,8 @@ nav a:hover {
 }
 
 img {
- margin-left: 60px;
+ margin-left: 20px;
+ margin-right: 20px;
  margin-top: 50px;
 }
 
@@ -144,4 +145,13 @@ h3 {
   border: 5px;
   border-style: solid;
   font-family: "Poiret One", sans-serif;
+}
+
+section {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+
 }
