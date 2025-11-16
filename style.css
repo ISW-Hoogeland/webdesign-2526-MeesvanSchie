@@ -68,7 +68,29 @@ grid-area: main;
 
 footer {
 grid-area: footer;
- }
+background-color: #b0c4de;
+ min-height: 100px; 
+    padding: 20px 0; 
+border-radius: 20px;
+display: flex;             
+  align-items: center;      
+  justify-content: space-between;
+  gap: 20px;                  
+  padding: 20px;               
+}
+
+footer a.cookie {
+  margin-right: 200px;
+  color: #FFFFFF;
+}
+
+footer a.tiktok-link {
+  margin-left: 180px;
+}
+
+footer a.voorwaarden {
+  color: #FFFFFF;
+}
 
 article {
   flex: 0 0 20%;
@@ -157,3 +179,49 @@ section {
   align-content: center;
 
 }
+
+.tiktok-icon {
+    border: none; 
+margin-bottom: 50px;
+padding: 5px;
+background-color: #F5F5F5;
+}
+
+.insta-icon {
+    border: none;
+    margin-bottom: 48px;
+    padding: 5px;
+   background-color: #F5F5F5;
+}
+
+.Mees {
+  margin-bottom: 50px;
+}
+
+.porsche {
+  margin-bottom: 50px;
+}
+
+.lamborghini {
+  margin-bottom: 50px;
+}
+
+.mercedes {
+  margin-bottom: 50px;
+}
+
+.cookie:hover {
+    background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.voorwaarden:hover {
+     background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
