@@ -76,12 +76,15 @@ display: flex;
   align-items: center;      
   justify-content: space-between;
   gap: 20px;                  
-  padding: 20px;               
+  padding: 20px;      
+  margin-right: 20px;    
+  margin-left: 20px;     
 }
 
 footer a.cookie {
   margin-right: 200px;
   color: #FFFFFF;
+    font-family: "Poiret One", sans-serif;
 }
 
 footer a.tiktok-link {
@@ -90,6 +93,12 @@ footer a.tiktok-link {
 
 footer a.voorwaarden {
   color: #FFFFFF;
+    font-family: "Poiret One", sans-serif;
+}
+
+footer a.energie {
+  color: #FFFFFF;
+    font-family: "Poiret One", sans-serif;
 }
 
 article {
@@ -131,7 +140,7 @@ nav ul {
    margin: 0;
   display: flex;
   gap: 75px ;
-
+ font-family: "Poiret One", sans-serif;
 }
 
 
@@ -215,6 +224,7 @@ background-color: #F5F5F5;
   color: black;
   border-radius: 10px;
   padding: 5px;
+ 
 }
 
 .voorwaarden:hover {
@@ -222,6 +232,15 @@ background-color: #F5F5F5;
   color: black;
   border-radius: 10px;
   padding: 5px;
+ 
+}
+
+.energie:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+ 
 }
 
 
